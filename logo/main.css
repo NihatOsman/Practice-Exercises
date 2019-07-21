@@ -1,0 +1,121 @@
+.main-container {
+  width: 600px;
+  height: 700px;
+  position: fixed;
+}
+
+.main-container div {
+  position: absolute;
+}
+
+.main-container .border-radius-50 {
+  border-radius: 50%;
+}
+
+.main-container .top-left-50 {
+  top: 50%;
+  left: 50%;
+}
+
+.main-container .transform-translate-50 {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main-container .first-container {
+  width: 600px;
+  height: 600px;
+  background: #ececec;
+  border-radius: 20%;
+  position: fixed;
+}
+
+.main-container .first-container .left-circle {
+  background: #fba899;
+  width: 30px;
+  height: 30px;
+  top: 65px;
+  left: 75px;
+}
+
+.main-container .first-container .right-circle {
+  background: #3e4d5d;
+  width: 75px;
+  height: 55px;
+  top: 55px;
+  right: 65px;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+  border-top-right-radius: 45%;
+  -webkit-box-shadow: 0 1px 1px 1px #989898;
+          box-shadow: 0 1px 1px 1px #989898;
+}
+
+.main-container .first-container .first-rectangle {
+  z-index: 1;
+  width: 100%;
+  height: 240px;
+  background: #62bda4;
+}
+
+.main-container .first-container .second-rectangle {
+  width: 100%;
+  height: 280px;
+  background: #56a48e;
+  -webkit-box-shadow: 0 4px 1px 0px #989898;
+          box-shadow: 0 4px 1px 0px #989898;
+}
+
+.main-container .first-container .first-circle {
+  z-index: 6;
+  background: #8e8e8e;
+  width: 15px;
+  height: 15px;
+}
+
+.main-container .first-container .second-circle {
+  z-index: 5;
+  background: #262626;
+  width: 75px;
+  height: 75px;
+}
+
+.main-container .first-container .third-circle {
+  z-index: 4;
+  background: #323232;
+  width: 120px;
+  height: 120px;
+}
+
+.main-container .first-container .fourth-circle {
+  z-index: 3;
+  background: #4b4b4b;
+  width: 200px;
+  height: 200px;
+}
+
+.main-container .first-container .fifth-circle {
+  z-index: 2;
+  background: #212121;
+  width: 300px;
+  height: 300px;
+}
+
+.main-container .first-container .sixth-circle {
+  z-index: 1;
+  background: #bc5946;
+  width: 375px;
+  height: 375px;
+  -webkit-box-shadow: 0 8px 1px 2px #747373ba;
+          box-shadow: 0 8px 1px 2px #747373ba;
+}
+
+.main-container .shadow-circle {
+  width: 75%;
+  height: 40px;
+  background: #bbbbbb;
+  bottom: 0;
+  top: auto;
+}
+/*# sourceMappingURL=main.css.map */

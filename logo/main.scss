@@ -1,0 +1,122 @@
+$bg-container: #ececec;
+$bg-left-circle: #fba899;
+$bg-rigth-circle: #3e4d5d;
+$box-shadow-grey: #989898;
+$bg-first-rectangle: #62bda4;
+$bg-second-rectangle: #56a48e;
+$bg-first-circle: #8e8e8e;
+$bg-second-circle: #262626;
+$bg-third-circle: #323232;
+$bg-fourth-circle: #4b4b4b;
+$bg-fifth-circle: #212121;
+$bg-sixth-circle: #bc5946;
+$box-shadow-sixth-circle: #747373ba;
+$bg-shadow: #bbbbbb;
+
+.main-container {
+  width: 600px;
+  height: 700px;
+  position: fixed;
+  div {
+    position: absolute;
+  }
+  .border-radius-50 {
+    border-radius: 50%;
+  }
+  .top-left-50 {
+    top: 50%;
+    left: 50%;
+  }
+  .transform-translate-50 {
+    transform: translate(-50%, -50%);
+  }
+  .first-container {
+    width: 600px;
+    height: 600px;
+    background: $bg-container;
+    border-radius: 20%;
+    position: fixed;
+
+    .left-circle {
+      background: $bg-left-circle;
+      width: 30px;
+      height: 30px;
+      top: 65px;
+      left: 75px;
+    }
+    .right-circle {
+      background: $bg-rigth-circle;
+      width: 75px;
+      height: 55px;
+      top: 55px;
+      right: 65px;
+      border-top-left-radius: 45%;
+      border-bottom-left-radius: 45%;
+      border-bottom-right-radius: 45%;
+      border-top-right-radius: 45%;
+      box-shadow: 0 1px 1px 1px $box-shadow-grey;
+    }
+
+    .first-rectangle {
+      z-index: 1;
+      width: 100%;
+      height: 240px;
+      background: $bg-first-rectangle;
+    }
+
+    .second-rectangle {
+      width: 100%;
+      height: 280px;
+      background: $bg-second-rectangle;
+      box-shadow: 0 4px 1px 0px $box-shadow-grey;
+    }
+    .first-circle {
+      z-index: 6;
+      background: $bg-first-circle;
+      width: 15px;
+      height: 15px;
+    }
+    .second-circle {
+      z-index: 5;
+      background: $bg-second-circle;
+      width: 75px;
+      height: 75px;
+    }
+
+    .third-circle {
+      z-index: 4;
+      background: $bg-third-circle;
+      width: 120px;
+      height: 120px;
+    }
+
+    .fourth-circle {
+      z-index: 3;
+      background: $bg-fourth-circle;
+      width: 200px;
+      height: 200px;
+    }
+
+    .fifth-circle {
+      z-index: 2;
+      background: $bg-fifth-circle;
+      width: 300px;
+      height: 300px;
+    }
+
+    .sixth-circle {
+      z-index: 1;
+      background: $bg-sixth-circle;
+      width: 375px;
+      height: 375px;
+      box-shadow: 0 8px 1px 2px $box-shadow-sixth-circle;
+    }
+  }
+  .shadow-circle {
+    width: 75%;
+    height: 40px;
+    background: $bg-shadow;
+    bottom: 0;
+    top: auto;
+  }
+}

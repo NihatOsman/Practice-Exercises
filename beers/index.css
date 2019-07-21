@@ -1,0 +1,52 @@
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#container div {
+  height: 220px;
+  width: 80%;
+  border: 1px solid grey;
+  margin: 5px;
+}
+img {
+  width: 125px;
+  vertical-align: middle;
+}
+span {
+  vertical-align: middle;
+}
+.alcohol {
+  float: right;
+  width: 250px;
+}
+.alcoholValue {
+  float: right;
+  border: none;
+  font-size: 20px;
+  width: 50px;
+}
+.description {
+  display: flex;
+  margin-left: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #bfc0c0;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+.name {
+  font-size: 25px;
+}
